@@ -70,7 +70,7 @@ export function Celebration() {
 
         {/* Secondary message */}
         <p className="text-2xl sm:text-3xl text-rose-600 mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          Satvik khush hua, you said YES!!
+          Satvik khush hua , you said YES!!
         </p>
 
         {/* Call to action */}
