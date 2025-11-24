@@ -39,7 +39,7 @@ export function DateProposal({ onYes }: DateProposalProps) {
       <div className="mb-12 text-center animate-fade-in-up">
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
           <span className="text-gradient-romantic">
-            Will you go on a date with me?
+            Will you go on a date with me , just you and me?
           </span>
         </h1>
         <div className="text-6xl animate-heart-beat inline-block">
@@ -56,7 +56,7 @@ export function DateProposal({ onYes }: DateProposalProps) {
 
       {clicks >= messages.length && (
         <p className="text-2xl text-rose-600 mb-8 animate-fade-in-up">
-          You're adorable when you're being difficult 😄
+          Babu please HAAN bol do..🥺
         </p>
       )}
 
@@ -101,7 +101,7 @@ export function DateProposal({ onYes }: DateProposalProps) {
 
       {/* Hint text */}
       <p className="text-rose-500 mt-12 text-center text-sm opacity-70 animate-fade-in">
-        psst... the NO button has a mind of its own 😉
+        NO button NHI dabaa sakti... TRY KRO AAP!, hehehe
       </p>
     </div>
   );
