@@ -23,7 +23,7 @@ const storySteps = [
   {
     icon: '💭',
     title: 'So I thought…',
-    description: 'Let\'s meet when I come to Delhi..',
+    description: 'Let\'s meet when I come to Delhi.....',
   },
 ];
 
