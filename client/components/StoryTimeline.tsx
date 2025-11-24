@@ -7,23 +7,23 @@ interface StoryTimelineProps {
 const storySteps = [
   {
     icon: '👀',
-    title: 'The first time I saw you…',
-    description: 'I remember exactly. There was something about you that just made me stop and notice.',
+    title: 'The first time I saw you… (15 May 2023)',
+    description: 'You were asking for directions to the metro station.',
   },
   {
     icon: '😊',
     title: 'The way you smile…',
-    description: 'It lights up everything around you. It\'s my favorite thing in the world.',
+    description: 'It lights up everything around you. It\'s my 2nd favorite thing in the world.',
   },
   {
     icon: '🌟',
-    title: 'How you make every day special…',
-    description: 'Even the most ordinary moments become magical when you\'re there.',
+    title: 'How you make me feel good…',
+    description: 'I can be myself around you, and that means the something to me',
   },
   {
     icon: '💭',
     title: 'So I thought…',
-    description: 'Why not make a special moment for you? You deserve all the magic.',
+    description: 'Let\'s meet when I come to Delhi....',
   },
 ];
 
