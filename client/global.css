@@ -1,0 +1,125 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Romantic theme with soft pink, pastel red, and gradient colors
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+  */
+  :root {
+    --background: 0 0% 99%;
+    --foreground: 340 66% 35%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 66% 35%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 66% 35%;
+
+    --primary: 340 100% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 100% 70%;
+    --secondary-foreground: 340 100% 20%;
+
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 50%;
+
+    --accent: 15 100% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 340 100% 60%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 340 66% 35%;
+    --sidebar-primary: 340 100% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 100% 70%;
+    --sidebar-accent-foreground: 340 100% 20%;
+    --sidebar-border: 0 0% 88%;
+    --sidebar-ring: 340 100% 60%;
+
+    /* Romantic rose palette */
+    --rose-50: 0 100% 97%;
+    --rose-100: 0 100% 94%;
+    --rose-200: 340 100% 88%;
+    --rose-300: 340 100% 80%;
+    --rose-400: 340 100% 70%;
+    --rose-500: 340 100% 60%;
+    --rose-600: 340 100% 45%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html, body {
+    @apply bg-background text-foreground;
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+@layer components {
+  .gradient-romantic {
+    @apply bg-gradient-to-br from-rose-50 via-rose-100 to-rose-200;
+  }
+
+  .gradient-romantic-dark {
+    @apply bg-gradient-to-br from-rose-100 via-rose-200 to-rose-300;
+  }
+
+  .gradient-romantic-warm {
+    @apply bg-gradient-to-r from-rose-400 via-pink-400 to-red-400;
+  }
+
+  .text-gradient-romantic {
+    @apply bg-gradient-to-r from-rose-500 to-red-400 bg-clip-text text-transparent;
+  }
+
+  .btn-romantic {
+    @apply px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-yes {
+    @apply btn-romantic bg-gradient-to-r from-rose-400 to-red-400 text-white hover:from-rose-500 hover:to-red-500;
+  }
+
+  .btn-no {
+    @apply btn-romantic bg-white text-rose-500 border-2 border-rose-300 hover:bg-rose-50;
+  }
+
+  .heart-icon {
+    @apply inline-block animate-pulse-glow;
+  }
+
+  .sparkle {
+    @apply absolute rounded-full pointer-events-none;
+  }
+}
