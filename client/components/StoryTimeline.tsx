@@ -18,7 +18,7 @@ const storySteps = [
   {
     icon: '🌟',
     title: 'How you make me feel good…',
-    description: 'I can be myself around you, and that means the something to me',
+    description: 'I can be myself around you, and that means something to me',
   },
   {
     icon: '💭',
