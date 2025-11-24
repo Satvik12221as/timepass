@@ -64,22 +64,22 @@ export function Celebration() {
         {/* Success message */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 animate-fade-in-up">
           <span className="text-gradient-romantic">
-            Yay! You just made my day! 🥰
+            Yay!!!! Yipeee... 💕
           </span>
         </h1>
 
         {/* Secondary message */}
         <p className="text-2xl sm:text-3xl text-rose-600 mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          You just made me the happiest person in the world 💕
+          Satvik khush hua, you said YES!!
         </p>
 
         {/* Call to action */}
         <div className="bg-white rounded-xl p-8 shadow-lg mb-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           <p className="text-xl text-gray-800 mb-4">
-            <span className="font-bold text-rose-600">Text me...</span> I'll pick the time and place 💖
+            <span className="font-bold text-rose-600">Milte hai...</span> I'll choose the time and place and date(datesheet bhej dena, hehehehe), okay💖
           </p>
           <p className="text-lg text-rose-500">
-            I can't wait to see you 🌹✨
+            Ab Raha nhi jaa rha apse milne ke liye 🌹✨
           </p>
         </div>
 
