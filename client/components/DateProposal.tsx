@@ -27,7 +27,7 @@ export function DateProposal({ onYes }: DateProposalProps) {
   // Messages that appear as user clicks NO
   const messages = [
     "Are you sure? 🥺",
-    "Think about it... 💭",
+    "Think about it.. 💭",
     "Come on, just one date? 💕",
     "You're breaking my heart! 💔",
     "Okay, I'll just keep trying... 😄",
@@ -56,7 +56,7 @@ export function DateProposal({ onYes }: DateProposalProps) {
 
       {clicks >= messages.length && (
         <p className="text-2xl text-rose-600 mb-8 animate-fade-in-up">
-          Babu please HAAN bol do..🥺
+          Baby please HAAN bol do..🥺
         </p>
       )}
 
