@@ -6,13 +6,8 @@ interface StoryTimelineProps {
 
 const storySteps = [
   {
-    icon: '👀',
-    title: 'The first time I saw you… (15 May 2023)',
-    description: 'You were asking for directions to the metro station.',
-  },
-  {
     icon: '😊',
-    title: 'The way you smile…',
+    title: 'The way you smile… and your beauty',
     description: 'It lights up everything around you. It\'s my 2nd favorite thing in the world.',
   },
   {
