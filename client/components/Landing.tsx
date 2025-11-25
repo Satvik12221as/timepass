@@ -23,13 +23,13 @@ export function Landing({ onContinue }: LandingProps) {
       {/* Main heading */}
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-4 animate-fade-in-up">
         <span className="text-gradient-romantic">
-          Hello!! SHREYA... I made something special for you 💕
+          Hello!!... I made something special for you 💕
         </span>
       </h1>
 
       {/* Subheading */}
       <p className="text-xl sm:text-2xl text-rose-600 text-center mb-12 max-w-xl animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-        Because there's something I've been wanting to ask you...
+        Because there's something I've been wanting to ask you....
       </p>
 
       {/* Scroll indicator */}
